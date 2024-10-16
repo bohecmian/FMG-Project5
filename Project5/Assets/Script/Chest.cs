@@ -7,11 +7,16 @@ using UnityEngine.SceneManagement;
 public class Chest : MonoBehaviour
 {
     public GameObject chest;
-    private void OnTriggerEnter(Collider other)
+    public GameObject UI;
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            Destroy(chest);
+            UI.SetActive(true);
+            if (Input.GetKey(KeyCode.E)){
+                Destroy(chest);
+                UI.SetActive(false);
+            }
         }
     }
 }

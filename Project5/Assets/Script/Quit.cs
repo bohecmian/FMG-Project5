@@ -16,7 +16,7 @@ public class Quit: MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("GP5_Final");
         }
     }
 }
