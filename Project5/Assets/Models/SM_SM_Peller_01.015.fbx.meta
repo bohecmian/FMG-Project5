@@ -3,7 +3,17 @@ guid: 02a46d00f6ce4354c9520589a37c2c01
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Grey.004
+    second: {fileID: 2100000, guid: 99ff0bb43e1cca748a7a83f54532e21f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SandRook_yellow.004
+    second: {fileID: 2100000, guid: b95ab003416c52c4db7b8f024797208d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
