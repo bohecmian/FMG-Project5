@@ -3,7 +3,12 @@ guid: e33fb098e0814714da8237309e23c367
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sifi_01
+    second: {fileID: 2100000, guid: 82045a48dcac07840aab3487db6fcef3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
