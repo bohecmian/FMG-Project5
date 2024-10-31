@@ -5,7 +5,6 @@ using UnityEngine;
 public class Collision : MonoBehaviour
 {
     public GameObject ball;
-    public GameObject sim;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +14,9 @@ public class Collision : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "ball")
+        if (other.gameObject.tag == "Player")
         {
                 Destroy(ball);
-            Destroy(sim);
         }
     }
 }
